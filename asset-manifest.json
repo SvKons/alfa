@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alfa/static/css/main.6446e04e.css",
+    "main.js": "/alfa/static/js/main.5ec40772.js",
+    "index.html": "/alfa/index.html",
+    "main.6446e04e.css.map": "/alfa/static/css/main.6446e04e.css.map",
+    "main.5ec40772.js.map": "/alfa/static/js/main.5ec40772.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6446e04e.css",
+    "static/js/main.5ec40772.js"
+  ]
+}
