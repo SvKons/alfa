@@ -11,17 +11,20 @@ import BooksPage from './pages/BooksPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <MainPage />,
-        children: [
-            { path: 'books', element: <BooksPage /> },
-            { path: 'books/:id', element: <BookPage /> },
-            { path: 'create-product', element: <CreateBook /> },
-        ],
-    },
-]);
+const router = createBrowserRouter(
+    [
+        {
+            path: '/',
+            element: <MainPage />,
+            children: [
+                { path: 'books', element: <BooksPage /> },
+                { path: 'books/:id', element: <BookPage /> },
+                { path: 'create-product', element: <CreateBook /> },
+            ],
+        },
+    ],
+    { basename: '/alfa' }
+);
 
 root.render(
     <Provider store={store}>
